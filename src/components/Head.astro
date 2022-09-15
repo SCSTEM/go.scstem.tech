@@ -1,0 +1,16 @@
+---
+let { title } = Astro.props;
+const name = "SC2 URL Shortener";
+---
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  />
+  <title>{title ? name + " - " + title : name}</title>
+</head>
