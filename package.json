@@ -1,7 +1,7 @@
 {
   "name": "go.scstem.tech",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "wrangler dev",
     "publish": "wrangler publish"
