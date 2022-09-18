@@ -1,3 +1,16 @@
 name = "go-scstem-tech"
 main = "src/index.ts"
 compatibility_date = "2022-09-17"
+
+account_id = "345c5ea0a3dc752d06d6fca78a96170f"
+
+kv_namespaces = [
+  { binding = "KV_LINKS", id = "338d2f423fbd4187a083d4e6b09be9d2", preview_id = "1ec6fa01ff5f412dbf0bc8a08de66858"}
+]
+
+routes = [{ pattern = "go.scstem.tech", custom_domain = true }]
+
+minify = true
+
+[vars]
+DEFAULT_URL = "https://scstem.org"
